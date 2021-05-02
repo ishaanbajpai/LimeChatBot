@@ -1,0 +1,33 @@
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hey!
+    - Hallo
+    - Good day
+    - Good morning
+- intent: booking1
+  examples: |
+    - I want to reserve a table
+    - I want to book a table
+- intent: booking2
+  examples: |
+    - I want to reserve a table for party of [4](seats)
+    - I want to reserve a table for lunch of [2](seats)
+    - I want to reserve a table for dinner of [5](seats)
+- intent: num_seats
+  examples: |
+    - [2](seats) seats
+    - [4](seats) seats
+- intent: subscribe
+  examples: |
+    - I want to get the newsletter
+    - Can you send me the newsletter?
+    - Can you sign me up for the newsletter?
+
+- intent: inform
+  examples: |
+    - My email is example@example.com
+    - random@example.com
+    - Please send it to anything@example.com
+    - Email is something@example.com

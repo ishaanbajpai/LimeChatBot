@@ -1,0 +1,14 @@
+stories:
+ - story: greet and subscribe
+   steps:
+   - intent: greet
+   - action: utter_greet
+   - intent: subscribe
+   - action: newsletter_form
+   - active_loop: newsletter_form
+ - story: booking1 and seats
+   steps: 
+   - intent: booking1
+   - action: utter_ask_seats
+   - intent: num_seats
+   - action: ask_section
